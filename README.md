@@ -1,9 +1,10 @@
 # PICO PARK:Classic Edition control configurations
+![pico-header](https://user-images.githubusercontent.com/7528322/132099203-68ced1b5-5b13-43fd-bada-60e72aed0c27.jpg)
 
 ## How to use a keyboard configuration file
 1. Copy a `userdata.lua` file from one of the directories (you probably want `SixPlayerKeyboardConfig`, read `CONTROLS.md` in that directory for all the controls for each player).
 2. Go to your Pico Park game install location e.g.
-`C:\Program FIles (x86)\steamapps\steamapps\common\PICO_PARK\save`
+`C:\Program Files (x86)\steamapps\steamapps\common\PICO_PARK\save`
 3. Overwrite `userdata.lua` with the downloaded file (bear in mind this will wipe any hi-scores you have. Replace only the `keyboardConfig=` section with the downloaded one if you have any scores you want to keep). 
 
 ## keyboardConfig schema
